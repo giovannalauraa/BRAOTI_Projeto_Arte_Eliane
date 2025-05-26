@@ -1,0 +1,35 @@
+/* css/hero.css */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Lora', sans-serif;
+}
+
+.hero-content {
+  max-width: 50%;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #8d5b3e;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.hero-image {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}

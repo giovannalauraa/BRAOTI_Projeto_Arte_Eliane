@@ -1,0 +1,54 @@
+/* css/header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Lora', sans-serif;
+  cursor: pointer;
+}
+
+.logo {
+  height: 90px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav li:hover,
+.nav li.active {
+  color: #c7956d;
+}
+
+.contato {
+  background-color: #733C1D;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.3rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contato:hover {
+  background-color: #a6714e;
+}
