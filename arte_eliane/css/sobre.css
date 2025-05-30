@@ -1,4 +1,5 @@
 .sobre-mim{
+    width: 100vw;
     background-color: #BF4D0B;
     font-family: 'Lora', sans-serif;
 }
@@ -29,7 +30,7 @@
 }
 
 .img-1-sobre{
-    width: 700px;
+    width: 600px;
     display: block;
 }
 
@@ -38,9 +39,9 @@
     left: 35vw;
     background-color: #FFFFFF;
     color:rgba(115, 60, 29, 0.75);
-    width: 690;
-    height: 470;
-    padding: 5%;
+    width: 690px;
+    height: 470px;
+    padding: 4%;
     padding-left: 10%;
     font-size: 20px;
     text-align: right;
@@ -56,9 +57,8 @@
     right: 35vw;
     background-color: #FFFFFF;
     color:rgba(115, 60, 29, 0.75);
-    width: 690;
-    height: 470;
-    padding: 5%;
+    width: 690px;
+    padding: 4%;
     padding-right: 10%;
     font-size: 20px;
     text-align: left;
@@ -66,7 +66,71 @@
 }
 
 .img-2-sobre{
-    width: 700px;
+    width: 600px;
     display: block;
-    left: 35vw;
+}
+
+/* Para celulares */
+
+@media (max-width: 400px) {
+
+    .sobre-mim{
+        width: 100vw;
+        height: auto;
+    }
+
+    .sobre-container{
+        padding-top: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    } 
+
+    .sobre-item-1{
+        position: relative;
+        flex-direction: column;
+        align-items:start;
+    } 
+    
+    .sobre-item-2{
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .img-1-sobre{
+        position: relative;
+        width: 80vw;
+        left: 1vw;
+        z-index: 1;
+    }
+
+    .sobre-texto-1 h2{
+        font-size: 20px;
+    }
+
+    .sobre-texto-1{
+        position: relative;
+        width: 75vw;
+        height: auto;
+        font-size: 16px;
+        top: -8vw;
+        left: 12vw;
+        z-index: 2;
+        padding: 4%;
+    }
+
+    .sobre-texto-2{
+        width: 75vw;
+        height: auto;
+        font-size: 16px;
+        position: relative;
+        top: -8vw;
+        left: -12vw;
+        padding: 4%;
+    }
+
+    .img-2-sobre{
+        position: relative;
+        width: 75vw;
+        left: -1vw;
+    }
 }
