@@ -1,5 +1,6 @@
 /* css/header.css */
 .header {
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +11,6 @@
   top: 0;
   z-index: 1000;
   font-family: 'Lora', sans-serif;
-  cursor: pointer;
 }
 
 .logo {
@@ -46,6 +46,7 @@
   transition: color 0.3s ease;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
+  cursor: pointer;
 }
 
 .nav li:hover,
@@ -90,9 +91,8 @@
 
   .nav {
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
-    width: 100%;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     z-index: 999;

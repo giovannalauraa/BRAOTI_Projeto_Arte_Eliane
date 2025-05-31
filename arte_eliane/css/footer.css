@@ -1,8 +1,8 @@
 .footer {
     background-color: #F7EFE5;
     font-family: 'Lato', sans-serif;
-    padding: 2rem 1rem;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0 auto 0 auto;
     color: #733C1D;
     width: 100%;
     display: flex;
@@ -23,7 +23,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem 0 2rem; 
     max-width: 100rem;
     width: 100%;
     margin-bottom: 2rem;
@@ -65,9 +66,9 @@
 
 .social-media {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 1rem;
-    padding: 0 4%;
+    padding: 0 33px;
     margin-top: 1rem;
 }
 
@@ -82,12 +83,15 @@
 }
 
 .copyright {
+    top: 10px;
     width: 100%;
-    position: relative;
+    padding: 0.6rem 1rem;
+    margin: 0;
+    position: static; 
     text-align: center;
     background-color: #733C1D;
     color: #fff;
-    font-size: 0.6rem;
-    padding: 0.5rem;
+    font-size: 0.7rem;
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
