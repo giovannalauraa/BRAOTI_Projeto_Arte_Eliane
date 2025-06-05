@@ -1,4 +1,10 @@
 /* css/features.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .features {
     background-color: #fff;
     padding: 4rem 2rem;
@@ -152,7 +158,7 @@
 }
 
 .section-catalogo {
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: #fff;
     padding: 7rem 2rem;
     text-align: center;
@@ -203,7 +209,7 @@
     width: 30rem;
     height: auto;
     border-radius: 6px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-me p {
@@ -225,14 +231,14 @@
     font-family: 'Lora', sans-serif;
 }
 
-.section-coming-up h3{
+.section-coming-up h3 {
     font-size: 2rem;
     color: #282C2F;
     font-weight: 100;
     font-family: 'Lora', sans-serif;
 }
 
-.section-coming-up p{
+.section-coming-up p {
     font-size: 1.25rem;
     font-weight: 300;
     font-family: 'Lato', serif;
@@ -250,4 +256,131 @@
     font-size: 1rem;
     font-weight: 500;
     transition: background-color 0.3s;
+}
+
+/* Tablets (≤ 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .section-destaque {
+        padding: 3rem 1rem;
+    }
+
+    .section-destaque h2 {
+        font-size: 2.3rem;
+    }
+
+    .section-destaque p {
+        font-size: 1.3rem;
+    }
+
+    .section-imagens {
+        padding: 0rem 1rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-inicio-1 {
+        width: 35vw;
+        height: auto;
+        margin-left: 7rem;
+        position: static;
+        display: block;
+        transform: translateY(5rem);
+    }
+
+    .img-inicio-2 {
+        width: 40vw;
+        height: auto;
+        margin-left: -23rem;
+        position: static;
+        display: block;
+        transform: translateY(-10rem);
+    }
+
+    .img-inicio-3 {
+        width: 83vw;
+        height: auto;
+        margin-left: 4rem;
+        position: static;
+        display: block;
+        transform: translateY(-32rem);
+    }
+
+    .section-texto {
+        margin-top: -37rem;
+        max-width: 580px;
+    }
+
+    .section-texto h3 {
+        font-size: 1.7rem;
+    }
+
+    .section-texto p,
+    .section-texto li {
+        font-size: 1.3rem;
+    }
+}
+
+/* Celulares (≤ 600px) */
+@media (max-width: 600px) {
+    *{
+        overflow-x: hidden;
+    }
+    .section-destaque {
+        padding: 3rem 1rem;
+    }
+
+    .section-destaque h2 {
+        font-size: 1.3rem;
+    }
+
+    .section-destaque p {
+        font-size: 1rem;
+    }
+
+    .section-imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-inicio-1 {
+        width: 37vw;
+        height: auto;
+        position: static;
+        display: block;
+        margin-top: 3rem;
+        margin-left: 5rem;
+    }
+
+    .img-inicio-2 {
+        width: 45vw;
+        height: auto;
+        position: static;
+        display: block;
+        margin-left: -11rem;
+        transform: translateY(-15rem);
+    }
+
+    .img-inicio-3 {
+        width: 85vw;
+        height: auto;
+        position: static;
+        display: block;
+        margin-left: -0.7rem;
+        transform: translateY(-27rem);
+    }
+
+    .section-texto {
+        margin-top: -30rem;
+        margin-left: 0rem;
+        max-width: 90vw;
+    }
+
+    .section-texto h3 {
+        font-size: 1.2rem;
+    }
+
+    .section-texto li,
+    .section-texto p {
+        font-size: 1rem;
+    }
 }
