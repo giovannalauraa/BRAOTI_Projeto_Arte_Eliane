@@ -1,10 +1,9 @@
-.sobre-mim{
-    width: 100vw;
+.sobre-mim {
     background-color: #BF4D0B;
     font-family: 'Lora', sans-serif;
 }
 
-.sobre-container{
+.sobre-container {
     display: flex;
     flex-direction: column;
     padding-top: 5%;
@@ -13,34 +12,32 @@
     padding-left: 10%;
 }
 
-.sobre-item-1{
-    display:flex;
+.sobre-item-1 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: 3%;
-    position: relative;
+    justify-content: center;
 }
 
-.sobre-item-2{
+.sobre-item-2 {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
     padding-top: 3%;
     align-items: center;
-    position: relative;
 }
 
-.img-1-sobre{
+.img-1-sobre {
+    left: 14vw;
     width: 600px;
-    display: block;
 }
 
-.sobre-texto-1{
-    position: absolute;
-    left: 35vw;
+.sobre-texto-1 {
+    position: relative;
+    left: -5vw;
     background-color: #FFFFFF;
-    color:rgba(115, 60, 29, 0.75);
-    width: 690px;
-    height: 470px;
+    color: rgba(115, 60, 29, 0.75);
+    width: 40vw;
     padding: 4%;
     padding-left: 10%;
     font-size: 20px;
@@ -48,87 +45,140 @@
     line-height: 35px;
 }
 
-.sobre-texto-1 h2{
+.sobre-texto-1 h2 {
     font-size: 34px;
 }
 
-.sobre-texto-2{
+.sobre-texto-2 {
     position: absolute;
-    right: 35vw;
+    right: 45vw;
     background-color: #FFFFFF;
-    color:rgba(115, 60, 29, 0.75);
-    width: 690px;
-    padding: 4%;
+    color: rgba(115, 60, 29, 0.75);
+    width: 40vw;
+    padding: 3%;
     padding-right: 10%;
     font-size: 20px;
     text-align: left;
     line-height: 35px;
 }
 
-.img-2-sobre{
+.img-2-sobre {
     width: 600px;
-    display: block;
+    right: 14vw;
 }
 
-/* Para celulares */
+/* Tablets (≤ 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
 
-@media (max-width: 400px) {
-
-    .sobre-mim{
-        width: 100vw;
-        height: auto;
-    }
-
-    .sobre-container{
+    .sobre-container {
         padding-top: 10%;
         padding-left: 2%;
         padding-right: 2%;
-    } 
+    }
 
-    .sobre-item-1{
+    .sobre-item-1 {
         position: relative;
         flex-direction: column;
-        align-items:start;
-    } 
-    
-    .sobre-item-2{
+        align-items: start;
+    }
+
+    .sobre-item-2 {
         flex-direction: column-reverse;
         align-items: end;
     }
 
-    .img-1-sobre{
+    .img-1-sobre {
         position: relative;
         width: 80vw;
         left: 1vw;
         z-index: 1;
     }
 
-    .sobre-texto-1 h2{
+    .sobre-texto-1 h2 {
+        font-size: 2rem;
+    }
+
+    .sobre-texto-1 {
+        position: relative;
+        width: 75vw;
+        height: auto;
+        font-size: 23px;
+        top: -3vw;
+        left: 15vw;
+        z-index: 2;
+        padding: 6%;
+    }
+
+    .sobre-texto-2 {
+        width: 75vw;
+        height: auto;
+        font-size: 23px;
+        position: relative;
+        top: -3vw;
+        left: -12vw;
+        padding: 6%;
+    }
+
+    .img-2-sobre {
+        position: relative;
+        width: 75vw;
+        left: -1vw;
+    }
+}
+
+/* Celulares (≤ 600px) */
+@media (max-width: 600px) {
+
+    .sobre-container {
+        padding-top: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .sobre-item-1 {
+        position: relative;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .sobre-item-2 {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .img-1-sobre {
+        position: relative;
+        width: 80vw;
+        left: 1vw;
+        z-index: 1;
+    }
+
+    .sobre-texto-1 h2 {
         font-size: 20px;
     }
 
-    .sobre-texto-1{
+    .sobre-texto-1 {
         position: relative;
         width: 75vw;
         height: auto;
         font-size: 16px;
-        top: -8vw;
-        left: 12vw;
+        top: -6vw;
+        left: 15vw;
         z-index: 2;
-        padding: 4%;
+        padding: 6%;
     }
 
-    .sobre-texto-2{
+    .sobre-texto-2 {
         width: 75vw;
         height: auto;
         font-size: 16px;
         position: relative;
-        top: -8vw;
-        left: -12vw;
-        padding: 4%;
+        top: -6vw;
+        left: -15vw;
+        padding: 6%;
     }
 
-    .img-2-sobre{
+    .img-2-sobre {
         position: relative;
         width: 75vw;
         left: -1vw;
