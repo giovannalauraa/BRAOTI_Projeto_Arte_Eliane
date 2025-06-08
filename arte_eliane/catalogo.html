@@ -1,178 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catálogo | Arte Eliane</title>
-    <link rel="stylesheet" href="css/catalogo.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/fonte.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo | Arte Eliane</title>
+  <link rel="stylesheet" href="css/catalogo.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/fonte.css" />
+  <link rel="stylesheet" href="css/footer.css" />
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <img src="assets/logo.png" alt="Logo Arte Eliane" class="logo" />
-        <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
-        <nav class="nav">
-            <ul>
-                <li class="active">Home</li>
-                <li>Catálogo</li>
-                <li>Aprenda</li>
-                <li>Sobre</li>
-            </ul>
-            <button class="contato">Entre em contato</button>
+  <!-- Header -->
+  <header class="header">
+    <img src="assets/logo.png" alt="Logo Arte Eliane" class="logo" />
+    <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalogo.html" class="active">Catálogo</a></li>
+        <li><a href="#section-coming-up">Aprenda</a></li>
+        <li><a href="#sobre-mim">Sobre</a></li>
+      </ul>
+      <a href="#contato" class="contato">Entre em contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner-section">
+      <div class="catalogo-header">
+        <img src="assets/catalogo/catalog-banner.png" alt="Fundo de corda" class="corda-bg" />
+        <h1 class="catalogo-titulo">CATÁLOGO</h1>
+        <nav class="breadcrumb">
+          <a href="index.html" class="breadcrumb-link">Home</a>
+          <span class="breadcrumb-separator">></span>
+          <span class="breadcrumb-current">Catálogo</span>
         </nav>
-    </header>
+      </div>
+    </section>
 
-    <main>
-        <section class="catalogo-section">
-            <div class="catalogo-header">
-              <img src="assets/catalogo/catalog-banner.png" alt="Fundo de corda" class="corda-bg" />
-              <h1 class="catalogo-titulo">CATÁLOGO</h1>
-            </div>
-          
-            <div class="catalogo-grid">
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-1.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-21.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-3.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-4.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-5.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-              <div class="catalogo-card">
-                <img src="assets/catalogo/bolsa-6.png" alt="Bolsa modelo" />
-                <div class="info">
-                  <h2>MODELO DA BOLSA</h2>
-                  <p>Cores disponíveis</p>
-                  <div class="bolinhas">
-                    <span class="cor preta"></span>
-                    <span class="cor amarela"></span>
-                    <span class="cor bege"></span>
-                  </div>
-                  <span class="preco">R$ 1.000,00</span>
-                </div>
-              </div>
-          
-            </div>
-          </section>     
+    <section class="catalogo-section">
+      <section id="catalogo-grid" class="catalogo-grid">
+        <!-- Os cards serão inseridos aqui via JavaScript -->
+      </section>
+      <div id="paginacao" class="paginacao"></div>
+    </section>
 
-        <section class="bolsa-sonho">
-            <h2>Não achou a bolsa dos seus sonhos?</h2>
-            <p class="subtitulo">
-              Não se preocupe! Nós podemos te ajudar a criar algo especial para você.<br>
-              Siga nosso passo a passo rápido e fale diretamente com nossa artesã!
-            </p>
-          
-            <div class="passos-container">
-              <div class="passo">
-                <span class="numero">1</span>
-                <h3>Encontre inspiração</h3>
-                <p>Navegue pelo nosso catálogo e veja os modelos disponíveis.<br>
-                Não encontrou o que queria? Sem problemas!</p>
-                <div class="icone"><img src="assets/catalogo/lampada.png" alt="Ícone de Lâmpada" /></div>
-              </div>
-          
-              <div class="passo destaque">
-                <span class="numero">2</span>
-                <h3>Fale diretamente com nossa artesã</h3>
-                <p>Clique no botão e conte como seria sua bolsa dos sonhos: estilo, cor, tamanho ou envie uma imagem de referência.</p>
-                <div class="icone"><img src="assets/catalogo/conversation.png" alt="Balão de Conversa" /></div>
-              </div>
-          
-              <div class="passo">
-                <span class="numero">3</span>
-                <h3>Atendimento exclusivo</h3>
-                <p>Nossa artesã vai te ajudar a escolher ou criar a bolsa perfeita, feita com toda atenção aos detalhes especialmente para você!</p>
-                <div class="icone"><img src="assets/catalogo/shines.png" alt="Brilhos" /></div>
-              </div>
-            </div>
-          
-            <a href="https://wa.me/seunumerowhatsapp" target="_blank" class="botao-zap">Falar com a artesã <img class="eita" src="assets/catalogo/whatsapp-branco.png" alt="Ícone do Whatsapp" /></a>
-          </section>          
-    </main>
+    <section class="bolsa-sonho">
+      <h2>Não achou a bolsa dos seus sonhos?</h2>
+      <p class="subtitulo">
+        Não se preocupe! Nós podemos te ajudar a criar algo especial para você.<br>
+        Siga nosso passo a passo rápido e fale diretamente com nossa artesã!
+      </p>
 
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="footer-content">
-                <div>
-                    <h3>Veja</h3>
-                    <ul class="links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Catálogo</a></li>
-                        <li><a href="#">Aprenda</a></li>
-                        <li><a href="#">Sobre</a></li>
-                    </ul>
-                </div>
-                <div class="bottom-logo">
-                    <img src="assets/bottom-logo.png" alt="Logo Arte Eliane" class="logo-footer" />
-                </div>
-            </div>
-            <div class = "social-media">
-                <a href="#"><img src="assets/instagram.png" alt="Instagram" /></a>
-                <a href="#"><img src="assets/whatsapp.png" alt="Whatsapp" /></a>
-            </div>
-            <div class = "copyright">
-                <p>Copyright &copy; 2025 Arte Eliane. Todos os direitos reservados. Ana, Évelin, Giovanna e Soraya</p>
-            </div>
-        </footer>    
+      <div class="passos-container">
+        <div class="passo">
+          <span class="numero">1</span>
+          <h3>Encontre inspiração</h3>
+          <p>Navegue pelo nosso catálogo e veja os modelos disponíveis.<br>
+            Não encontrou o que queria? Sem problemas!</p>
+          <div class="icone"><img src="assets/catalogo/lampada.png" alt="Ícone de Lâmpada" /></div>
+        </div>
+
+        <div class="passo destaque">
+          <span class="numero">2</span>
+          <h3>Fale diretamente com nossa artesã</h3>
+          <p>Clique no botão e conte como seria sua bolsa dos sonhos: estilo, cor, tamanho ou envie uma imagem de
+            referência.</p>
+          <div class="icone"><img src="assets/catalogo/conversation.png" alt="Balão de Conversa" /></div>
+        </div>
+
+        <div class="passo">
+          <span class="numero">3</span>
+          <h3>Atendimento exclusivo</h3>
+          <p>Nossa artesã vai te ajudar a escolher ou criar a bolsa perfeita, feita com toda atenção aos detalhes
+            especialmente para você!</p>
+          <div class="icone"><img src="assets/catalogo/shines.png" alt="Brilhos" /></div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/seunumerowhatsapp" target="_blank" class="botao-zap">Falar com a artesã <img class="eita"
+          src="assets/catalogo/whatsapp-branco.png" alt="Ícone do Whatsapp" /></a>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Veja</h3>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="#section-coming-up">Aprenda</a></li>
+          <li><a href="#sobre-mim">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="bottom-logo">
+        <img src="assets/bottom-logo.png" alt="Logo Arte Eliane" class="logo-footer" />
+      </div>
+    </div>
+    <div class="social-media">
+      <a href="#"><img src="assets/instagram.png" alt="Instagram" /></a>
+      <a href="#"><img src="assets/whatsapp.png" alt="Facebook" /></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2025 Arte Eliane. Todos os direitos reservados. Ana, Évelin, Giovanna e Soraya</p>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/catalogo.js"></script>
 </body>
+
 </html>

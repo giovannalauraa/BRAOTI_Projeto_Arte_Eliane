@@ -15,145 +15,155 @@
 </head>
 
 <body>
-
     <!-- Header -->
     <header class="header">
         <img src="assets/logo.png" alt="Logo Arte Eliane" class="logo" />
         <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
         <nav class="nav">
             <ul>
-                <li class="active">Home</li>
-                <li>Catálogo</li>
-                <li>Aprenda</li>
-                <li>Sobre</li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="#section-coming-up">Aprenda</a></li>
+                <li><a href="#sobre-mim">Sobre</a></li>
             </ul>
-            <button class="contato">Entre em contato</button>
+            <a href="#contato" class="contato">Entre em contato</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <!-- <div class="hero-content">
-      <h1>Arte Eliane</h1>
-      <p>Crochê que abraça seu estilo</p>
-    </div> -->
-        <div class="hero-image">
-            <img src="assets/fundo_home.png" alt="Bolsa de crochê" />
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Feito à mão com carinho. Bolsas que contam histórias.</h2>
-        <div class="feature-items">
-            <div class="feature-item">
-                <img src="assets/agulha.png" alt="agulha de crochê" />
-                <h3>100% feitas à mão</h3>
-                <p>Produção totalmente artesanal, sem máquinas.</p>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="assets/fundo_home.png" alt="Bolsa de crochê" />
             </div>
-            <div class="feature-item">
-                <img src="assets/linha.png" alt="linha de crochê" />
-                <h3>Materiais de alta qualidade</h3>
-                <p>Utilizamos fios selecionados para garantir beleza e durabilidade.</p>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>
+                <span class="linha1">Feito à mão com carinho.</span><br>
+                <span class="linha2">Bolsas que contam histórias.</span>
+            </h2>
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img src="assets/agulha.png" alt="agulha de crochê" />
+                    <h3>100% feitas à mão</h3>
+                    <p>Produção totalmente artesanal, sem máquinas.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/linha.png" alt="linha de crochê" />
+                    <h3>Materiais de alta qualidade</h3>
+                    <p>Utilizamos fios selecionados para garantir beleza e durabilidade.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/flor.png" alt="flor de girassol feita em crochê" />
+                    <h3>Personalizáveis</h3>
+                    <p>Possibilidade de criar combinações únicas de cores e formatos.</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <img src="assets/flor.png" alt="flor de girassol feita em crochê" />
-                <h3>Personalizáveis</h3>
-                <p>Possibilidade de criar combinações únicas de cores e formatos.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Seção Destaque com Texto e Imagens -->
-    <section class="section-destaque">
-        <h2>Celebramos o encontro entre o talento artesanal e a beleza da simplicidade.</h2>
-        <p>
-            Nosso catálogo digital é dedicado a peças de crochê cuidadosamente criadas, oferecendo uma experiência
-            encantadora. Aqui, cada detalhe importa.
-        </p>
-    </section>
-
-    <section class="section-imagens">
-        <img src="assets/producao_croche.png" alt="Pessoa fazendo crochê" class="img-inicio-1">
-        <img src="assets/bolsas1.png" alt="Bolsa de crochê amarela" class="img-inicio-2">
-        <img src="assets/fundo_croche.png" alt="Textura de crochê verde" class="img-inicio-3">
-
-        <section class="section-texto">
-            <h3>Em cada fio tecido, uma história; em cada peça, um convite ao encanto.</h3>
+        <!-- Seção Destaque com Texto e Imagens -->
+        <section class="section-destaque">
+            <h2>Celebramos o encontro entre o talento artesanal e a beleza da simplicidade.</h2>
             <p>
-                Nosso catálogo foi cuidadosamente desenhado para que você descubra produtos únicos, que traduzem o
-                cuidado e
-                a paixão de mãos artesãs.
-            </p>
-            <ul>
-                <li>Navegue por nossas coleções e deixe-se surpreender.</li>
-                <li>Desperte o artesão que há em você!</li>
-            </ul>
-            <p>
-                Em breve, abriremos as portas para uma nova jornada: cursos de crochê pensados para quem deseja criar
-                com as
-                próprias mãos e coração.
+                Nosso catálogo digital é dedicado a peças de crochê cuidadosamente criadas, oferecendo uma experiência
+                encantadora. Aqui, cada detalhe importa.
             </p>
         </section>
-    </section>
 
-    <!-- Seção de Acesso ao Catálogo -->
-    <section class="section-catalogo">
-        <div class="catalog-items">
-            <div class="catalog-item-1">
-                <img src="assets/bolsa-1.png" alt="bolsa com corrente" />
-            </div>
-            <div class="catalog-item">
-                <img src="assets/bolsa-2.png" alt="bolsa com alça de madeira" />
-            </div>
-            <div class="catalog-item">
-                <img src="assets/bolsa-3.png" alt="bolsa preta com detalhe em couro" />
-            </div>
-        </div>
-        <button class = "button-main">Veja o catálogo</button>
-    </section>
+        <section class="section-imagens">
+            <img src="assets/producao_croche.png" alt="Pessoa fazendo crochê" class="img-inicio-1">
+            <img src="assets/bolsas1.png" alt="Bolsa de crochê amarela" class="img-inicio-2">
+            <img src="assets/fundo_croche.png" alt="Textura de crochê verde" class="img-inicio-3">
 
-<!-- Seção Sobre Mim -->
-    <section class="sobre-mim">
-        <div class="sobre-container">
-            <div class="sobre-item-1">
-                <img src="assets/imagem_sobre_1.jpeg" alt="Eliane com uma bolsa" class="img-1-sobre">
-                <div class="sobre-texto-1">
-                    <h2>Sobre mim</h2>
-                    <p>
-                        "Aprendi a arte do crochê ainda na infância, sentada ao lado de minha avó, observando com
-                        encanto cada ponto sendo formado.
-                        O que começou como uma brincadeira de tardes tranquilas se transformou em uma verdadeira paixão e,
-                        mais do que isso, em uma fonte de paz e inspiração."
-                    </p>
+            <section class="section-texto">
+                <h3>Em cada fio tecido, uma história; em cada peça, um convite ao encanto.</h3>
+                <p>
+                    Nosso catálogo foi cuidadosamente desenhado para que você descubra produtos únicos, que traduzem o
+                    cuidado e
+                    a paixão de mãos artesãs.
+                </p>
+                <ul>
+                    <li>Navegue por nossas coleções e deixe-se surpreender.</li>
+                    <li>Desperte o artesão que há em você!</li>
+                </ul>
+                <p>
+                    Em breve, abriremos as portas para uma nova jornada: cursos de crochê pensados para quem deseja
+                    criar
+                    com as
+                    próprias mãos e coração.
+                </p>
+            </section>
+        </section>
+
+        <!-- Seção de Acesso ao Catálogo -->
+        <section class="section-catalogo">
+            <div class="catalog-items">
+                <div class="catalog-item-1">
+                    <img src="assets/bolsa-1-home.png" alt="bolsa com corrente" />
+                </div>
+                <div class="catalog-item">
+                    <img src="assets/bolsa-2-home.png" alt="bolsa com alça de madeira" />
+                </div>
+                <div class="catalog-item">
+                    <img src="assets/bolsa-3-home.png" alt="bolsa preta com detalhe em couro" />
                 </div>
             </div>
+            <a href="catalogo.html" class="button-main">Veja o catálogo</a>
+        </section>
 
-            <div class="sobre-item-2">
-                <div class="sobre-texto-2">
-                    <p>
-                        "Entre fios e agulhas, descobri que criar com as próprias mãos era também uma forma de terapia.
-                        Cada bolsa que nasce em meu ateliê carrega essa história de carinho, paciência e dedicação, trazendo
-                        para o mundo peças únicas que unem beleza e carinho."
-                    </p>
-                    <p>
-                        Na ArteEliane, cada bolsa conta uma história única feita à mão, pensando especialmente em você.
-                    </p>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre-mim" class="sobre-mim">
+            <div class="sobre-container">
+                <div class="sobre-item-1">
+                    <img src="assets/imagem_sobre_1.jpeg" alt="Eliane com uma bolsa" class="img-1-sobre">
+                    <div class="sobre-texto-1">
+                        <h2>Sobre mim</h2>
+                        <p>
+                            <em>“Aprendi a arte do crochê ainda na infância, sentada ao lado de minha avó, observando
+                                com
+                                encanto cada ponto sendo formado.
+                                O que começou como uma brincadeira de tardes tranquilas se transformou em uma verdadeira
+                                paixão
+                                e, mais do que isso, em uma fonte de paz e inspiração.”</em>
+                        </p>
+                    </div>
                 </div>
-                <img src="assets/imagem_sobre_2.jpeg" alt="Eliane sorrindo" class="img-2-sobre">
-            </div>
-        </div>
-    </section>    
 
-    <!-- Seção Em Breve -->
-    <section class = "section-coming-up">
-        <h3>Estamos preparando algo especial para você</h3>
-        <p>Nossos cursos serão feitos para que você aprenda no seu ritmo, com acompanhamento e materiais pensados com o mesmo carinho que dedicamos a cada peça.
-            <br/>
-            <br/>
-            Seja o(a) primeiro(a) a receber novidades e garanta vantagens exclusivas no lançamento!</p>
-        <button class = "button-main">Quero saber mais</button>
-    </section>
+                <div class="sobre-item-2">
+                    <div class="sobre-texto-2">
+                        <p>
+                            <em>“Entre fios e agulhas, descobri que criar com as próprias mãos era também uma forma de
+                                terapia.
+                                Cada bolsa que nasce em meu ateliê carrega essa história de carinho, paciência e
+                                dedicação,
+                                trazendo para o mundo peças únicas que unem beleza e carinho.”</em>
+                        </p>
+                        <p>
+                            Na ArteEliane, cada bolsa conta uma história única feita à mão, pensando especialmente em
+                            você.
+                        </p>
+                    </div>
+                    <img src="assets/imagem_sobre_2.jpeg" alt="Eliane sorrindo" class="img-2-sobre">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção Em Breve -->
+        <section id="section-coming-up" class="section-coming-up">
+            <h3>Estamos preparando algo especial para você</h3>
+            <p>Nossos cursos serão feitos para que você aprenda no seu ritmo, com acompanhamento e materiais pensados
+                com o
+                mesmo carinho que dedicamos a cada peça.
+                <br />
+                <br />
+                Seja o(a) primeiro(a) a receber novidades e garanta vantagens exclusivas no lançamento!
+            </p>
+            <button class="button-main">Quero saber mais</button>
+        </section>
+    </main>
 
     <!-- Footer Section -->
     <footer class="footer">
@@ -161,26 +171,26 @@
             <div>
                 <h3>Veja</h3>
                 <ul class="links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Catálogo</a></li>
-                    <li><a href="#">Aprenda</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="#section-coming-up">Aprenda</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
                 </ul>
             </div>
             <div class="bottom-logo">
                 <img src="assets/bottom-logo.png" alt="Logo Arte Eliane" class="logo-footer" />
             </div>
         </div>
-        <div class = "social-media">
+        <div class="social-media">
             <a href="#"><img src="assets/instagram.png" alt="Instagram" /></a>
             <a href="#"><img src="assets/whatsapp.png" alt="Facebook" /></a>
         </div>
-        <div class = "copyright">
+        <div class="copyright">
             <p>Copyright &copy; 2025 Arte Eliane. Todos os direitos reservados. Ana, Évelin, Giovanna e Soraya</p>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

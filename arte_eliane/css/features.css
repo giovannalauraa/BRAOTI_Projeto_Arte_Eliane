@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Features */
 .features {
     background-color: #fff;
-    padding: 4rem 2rem;
+    padding: 6rem 4rem;
+    color: #282C2F;
     text-align: center;
 }
 
@@ -16,6 +18,7 @@
     margin-bottom: 2rem;
     color: #333;
     font-family: 'Lora', sans-serif;
+    font-weight: 300;
 }
 
 .feature-items {
@@ -39,41 +42,42 @@
 
 .feature-item h3 {
     font-size: 1rem;
-    color: #8d5b3e;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1em;
+    font-family: 'Lato', serif;
 }
 
 .feature-item p {
     font-size: 0.9rem;
-    color: #555;
+    color: #737373;
     line-height: 1.4;
-}
-
-
-/* Sessão abaixo das 3 informações iniciais */
-.section-destaque {
-    background-color: #b5987b;
-    color: #fff;
-    padding: 7rem 2rem;
-    text-align: center;
     font-family: 'Lato', serif;
 }
 
-.section-destaque h2 {
-    font-size: 2.25rem;
-    margin-bottom: 1rem;
-    color: #fff;
+/* Destaque */
+.section-destaque {
+    background-color: rgba(138, 107, 69, 0.7);
+    color: #F7EFE5;
+    padding: 6rem 2rem 2rem;
+    text-align: center;
     font-family: 'Lora', sans-serif;
+}
+
+.section-destaque h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 .section-destaque p {
     font-size: 1.25rem;
     max-width: 700px;
     margin: 0 auto;
-    color: #f7f0ea;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', serif;
+    font-weight: 350;
 }
 
+/* Imagens + Texto */
 .section-imagens {
     position: relative;
     display: flex;
@@ -81,7 +85,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 8rem 2rem;
-    background-color: #b5987b;
+    background-color: rgba(138, 107, 69, 0.7);
     gap: 2rem;
 }
 
@@ -94,7 +98,7 @@
     height: 272px;
     position: relative;
     z-index: 2;
-    margin-left: 25rem;
+    margin-left: 20rem;
     transform: translateY(-120px);
 }
 
@@ -125,16 +129,17 @@
     padding: 2rem;
     max-width: 460px;
     margin: 2rem auto;
-    font-family: 'Georgia', serif;
-    color: #5a3b26;
+    font-family: 'Lora', serif;
+    color: #733C1D;
     text-align: left;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .section-texto h3 {
-    color: #822d17;
-    font-size: 1.5rem;
+    color: #733C1D;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
+    font-weight: 600;
 }
 
 .section-texto ul {
@@ -147,18 +152,15 @@
 
 .section-texto p {
     margin: 1rem 0;
-    font-family: 'Lato', sans-serif;
-    color: #733C1D;
 }
 
 .section-texto ul li {
     margin-bottom: 0.5rem;
-    font-family: 'Lato', sans-serif;
-    color: #733C1D;
 }
 
+/* Catálogo */
 .section-catalogo {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     color: #fff;
     padding: 7rem 2rem;
     text-align: center;
@@ -174,8 +176,8 @@
 }
 
 .catalog-item-1 img {
-    margin-top: 2rem;
-    width: 20rem;
+    margin-top: 4rem;
+    width: 25rem;
     height: auto;
 }
 
@@ -185,47 +187,10 @@
     margin-bottom: 1rem;
 }
 
-.section-about {
-    background-color: #BF4D0B;
-    padding: 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-
-.about-me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-    color: #fff;
-    font-family: 'Lora', serif;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.about-me img {
-    width: 30rem;
-    height: auto;
-    border-radius: 6px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.about-me p {
-    max-width: 500px;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    font-family: 'Lato', serif;
-}
-
-.about-me:nth-child(2) {
-    flex-direction: row-reverse;
-}
-
+/*  Em Breve */
 .section-coming-up {
     background-color: #FFF;
-    padding: 5rem 4rem;
+    padding: 8rem 7rem;
     text-align: center;
     font-size: 1rem;
     font-family: 'Lora', sans-serif;
@@ -235,16 +200,18 @@
     font-size: 2rem;
     color: #282C2F;
     font-weight: 100;
-    font-family: 'Lora', sans-serif;
+    margin-bottom: 1.5rem;
 }
 
 .section-coming-up p {
     font-size: 1.25rem;
     font-weight: 300;
     font-family: 'Lato', serif;
+    margin-bottom: 1.5rem;
 }
 
 .button-main {
+    text-decoration: none;
     background-color: #F2B705;
     border: none;
     color: white;
@@ -258,14 +225,29 @@
     transition: background-color 0.3s;
 }
 
-/* Tablets (≤ 900px) */
+.button-main:hover {
+    background-color: #facf4e;
+}
+
+/* MEDIA QUERIES */
+
+/*  Tablets (601px – 900px) */
 @media (min-width: 600px) and (max-width: 900px) {
+    .feature-items {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .feature-item {
+        flex: 0 1 250px;
+    }
+
     .section-destaque {
         padding: 3rem 1rem;
     }
 
     .section-destaque h2 {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
     }
 
     .section-destaque p {
@@ -311,20 +293,61 @@
     }
 
     .section-texto h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .section-texto p,
     .section-texto li {
         font-size: 1.3rem;
     }
+
+    /* Ajustes para a seção catálogo */
+    .section-catalogo {
+        padding: 4rem 1rem;
+    }
+
+    .catalog-items {
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .catalog-item-1 img {
+        width: 18rem;
+        margin-top: 2rem;
+    }
+
+    .catalog-item img {
+        width: 15rem;
+        margin-bottom: 4rem;
+    }
+
+    .button-main {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
 }
 
-/* Celulares (≤ 600px) */
+/* Mobile (≤ 600px) */
 @media (max-width: 600px) {
-    *{
+    * {
         overflow-x: hidden;
     }
+
+    .feature-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features h2 {
+        font-size: 1.3rem;
+    }
+
+    .feature-item {
+        width: 90%;
+        max-width: 300px;
+    }
+
     .section-destaque {
         padding: 3rem 1rem;
     }
@@ -379,8 +402,146 @@
         font-size: 1.2rem;
     }
 
-    .section-texto li,
-    .section-texto p {
+    .section-texto p,
+    .section-texto li {
         font-size: 1rem;
+    }
+
+    /* Ajustes para a seção catálogo no mobile */
+    .section-catalogo {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+    .catalog-items {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .catalog-item-1 img,
+    .catalog-item img {
+        width: 90vw;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto 1rem;
+        display: block;
+        margin-bottom: 4rem;
+    }
+
+    .button-main {
+        width: 80%;
+        padding: 0.8rem 1rem;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+
+    .section-coming-up {
+        padding: 4rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .section-coming-up h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-coming-up p {
+        font-size: 1rem;
+    }
+
+}
+
+/* Ultra Wide Screens (≥ 2000px) */
+@media (min-width: 2000px) {
+    .features {
+        padding: 8rem 10rem;
+    }
+
+    .features h2 {
+        font-size: 2rem;
+    }
+
+    .feature-items {
+        gap: 3rem;
+    }
+
+    .feature-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .feature-item p {
+        font-size: 1rem;
+    }
+
+    .section-destaque {
+        padding: 8rem 6rem 4rem;
+    }
+
+    .section-destaque h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-destaque p {
+        font-size: 1.5rem;
+    }
+
+    .section-imagens {
+        padding: 10rem 8rem;
+        gap: 3rem;
+    }
+
+    .img-inicio-1 {
+        width: 300px;
+        height: 300px;
+        margin-left: 50rem;
+    }
+
+    .img-inicio-2 {
+        width: 360px;
+        height: 450px;
+        margin-left: -40rem;
+    }
+
+    .img-inicio-3 {
+        width: 700px;
+        height: 480px;
+        margin-left: 45rem;
+    }
+
+    .section-texto {
+        max-width: 600px;
+        font-size: 1.2rem;
+        left: -2vw;
+        bottom: 2vw;
+    }
+
+    .section-texto h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-texto p,
+    .section-texto li {
+        font-size: 1.1rem;
+    }
+
+    .section-catalogo {
+        padding: 10rem 4rem;
+    }
+
+    .catalog-item img {
+        width: 24rem;
+    }
+
+    .section-coming-up h3 {
+        font-size: 2.5rem;
+    }
+
+    .section-coming-up p {
+        font-size: 1.5rem;
+    }
+
+    .button-main {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
     }
 }
