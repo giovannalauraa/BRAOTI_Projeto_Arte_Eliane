@@ -1,23 +1,23 @@
 /* js/catalogo.js */
 
 const bolsas = [
-    { modelo: "Bolsa modelo 1", imagem: "assets/catalogo/bolsa-1.png", temVerso: true },
-    { modelo: "Bolsa modelo 2", imagem: "assets/catalogo/bolsa-2.png", temVerso: true },
-    { modelo: "Bolsa modelo 3", imagem: "assets/catalogo/bolsa-3.png", temVerso: true },
-    { modelo: "Bolsa modelo 6", imagem: "assets/catalogo/bolsa-6.png", temVerso: true },
+    { modelo: "Bolsa Pradinha", imagem: "assets/catalogo/bolsa-1.png", temVerso: true },
+    { modelo: "Bolsa Modelo 1", imagem: "assets/catalogo/bolsa-2.png", temVerso: true },
+    { modelo: "Bolsa Wave", imagem: "assets/catalogo/bolsa-3.png", temVerso: true },
+    { modelo: "Bolsa Tutto", imagem: "assets/catalogo/bolsa-6.png", temVerso: true },
     { modelo: "Bolsa modelo 11", imagem: "assets/catalogo/bolsa-11.png", temVerso: true },
-    { modelo: "Bolsa modelo 13", imagem: "assets/catalogo/bolsa-13.png", temVerso: true },
+    { modelo: "Bolsa Esmeralda", imagem: "assets/catalogo/bolsa-13.png", temVerso: true },
     { modelo: "Bolsa modelo 14", imagem: "assets/catalogo/bolsa-14.png", temVerso: true },
     { modelo: "Bolsa modelo 15", imagem: "assets/catalogo/bolsa-15.png", temVerso: true },
     { modelo: "Bolsa modelo 16", imagem: "assets/catalogo/bolsa-16.png", temVerso: true },
     { modelo: "Bolsa modelo 17", imagem: "assets/catalogo/bolsa-17.png", temVerso: true },
-    { modelo: "Bolsa modelo 4", imagem: "assets/catalogo/bolsa-4.png", temVerso: false },
-    { modelo: "Bolsa modelo 5", imagem: "assets/catalogo/bolsa-5.png", temVerso: false },
-    { modelo: "Bolsa modelo 7", imagem: "assets/catalogo/bolsa-7.png", temVerso: false },
+    { modelo: "Bolsa Catarina", imagem: "assets/catalogo/bolsa-4.png", temVerso: false },
+    { modelo: "Bolsa Loren", imagem: "assets/catalogo/bolsa-5.png", temVerso: false },
+    { modelo: "Bolsa Elegance", imagem: "assets/catalogo/bolsa-7.png", temVerso: false },
     { modelo: "Bolsa modelo 8", imagem: "assets/catalogo/bolsa-8.png", temVerso: false },
-    { modelo: "Bolsa modelo 9", imagem: "assets/catalogo/bolsa-9.png", temVerso: false },
-    { modelo: "Bolsa modelo 10", imagem: "assets/catalogo/bolsa-10.png", temVerso: false },
-    { modelo: "Bolsa modelo 12", imagem: "assets/catalogo/bolsa-12.png", temVerso: false },
+    { modelo: "Bolsa Carla", imagem: "assets/catalogo/bolsa-9.png", temVerso: false },
+    { modelo: "Bolsa Athenas", imagem: "assets/catalogo/bolsa-10.png", temVerso: false },
+    { modelo: "Carteira Alice", imagem: "assets/catalogo/bolsa-12.png", temVerso: false },
 ];
 const catalogoGrid = document.getElementById("catalogo-grid");
 const paginacaoDiv = document.getElementById("paginacao");
