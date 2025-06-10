@@ -77,7 +77,7 @@
 }
 
 .catalogo-section {
-    width: 100vw;
+    width: 100%;
     min-height: 700px;
     background-color: #F7EFE5;
     padding: 2rem;
